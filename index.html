@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+
+    <title>Angular2 + JSPM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="jspm_packages/system.js" type="application/javascript"></script>
+    <script src="config.js" type="application/javascript"></script>
+    <script>
+      System.import('src').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <application>Loading...</application>
+  </body>
+</html>
