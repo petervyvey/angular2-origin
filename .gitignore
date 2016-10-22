@@ -27,7 +27,7 @@ coverage
 build/Release
 
 # Dependency directories
-app/**/*.css
+src/**/*.css
 dist/**/*.min.js
 build
 node_modules
