@@ -2,5 +2,7 @@
   "globalDependencies": {
     "zone.js": "registry:dt/zone.js#0.0.0+20160316155526"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@ng-bootstrap/ng-bootstrap": "file:jspm_packages/npm/@ng-bootstrap/ng-bootstrap@1.0.0-alpha.9/index.d.ts"
+  }
 }
