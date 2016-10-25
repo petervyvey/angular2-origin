@@ -3,6 +3,6 @@
     "zone.js": "registry:dt/zone.js#0.0.0+20160316155526"
   },
   "dependencies": {
-    "@ng-bootstrap/ng-bootstrap": "file:jspm_packages/npm/@ng-bootstrap/ng-bootstrap@1.0.0-alpha.9/index.d.ts"
+    "ng2-bootstrap": "file:jspm_packages/npm/ng2-bootstrap@1.1.14/ng2-bootstrap.d.ts"
   }
 }

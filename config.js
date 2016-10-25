@@ -40,34 +40,34 @@ System.config({
   },
 
   map: {
-    "@angular/common": "npm:@angular/common@2.1.0",
-    "@angular/compiler": "npm:@angular/compiler@2.1.0",
-    "@angular/core": "npm:@angular/core@2.1.0",
+    "@angular/common": "npm:@angular/common@2.1.1",
+    "@angular/compiler": "npm:@angular/compiler@2.1.1",
+    "@angular/core": "npm:@angular/core@2.1.1",
     "@angular/forms": "npm:@angular/forms@2.1.1",
-    "@angular/http": "npm:@angular/http@2.1.0",
-    "@angular/platform-browser": "npm:@angular/platform-browser@2.1.0",
-    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.1.0",
-    "@angular/router": "npm:@angular/router@3.1.0",
-    "@angular/upgrade": "npm:@angular/upgrade@2.1.0",
-    "@ng-bootstrap/ng-bootstrap": "node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js",
+    "@angular/http": "npm:@angular/http@2.1.1",
+    "@angular/platform-browser": "npm:@angular/platform-browser@2.1.1",
+    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.1.1",
+    "@angular/router": "npm:@angular/router@3.1.1",
+    "@angular/upgrade": "npm:@angular/upgrade@2.1.1",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
-    "bootstrap": "github:twbs/bootstrap@4.0.0-alpha.5",
     "clean-css": "npm:clean-css@3.4.20",
-    "core-js": "npm:core-js@1.2.7",
+    "core-js": "npm:core-js@2.4.1",
     "crypto": "github:jspm/nodelibs-crypto@0.1.0",
-    "css": "github:systemjs/plugin-css@0.1.31",
+    "css": "github:systemjs/plugin-css@0.1.32",
     "es6-shim": "github:es-shims/es6-shim@0.35.1",
     "jack4it/system-less": "github:jack4it/system-less@master",
     "less": "npm:less@2.7.1",
+    "ng2-bootstrap": "npm:ng2-bootstrap@1.1.14",
     "reflect-metadata": "npm:reflect-metadata@0.1.8",
     "rxjs": "npm:rxjs@5.0.0-beta.12",
     "text": "github:systemjs/plugin-text@0.0.4",
     "ts": "github:frankwallis/plugin-typescript@5.2.7",
+    "twbs/bootstrap": "github:twbs/bootstrap@3.3.7",
     "typescript": "npm:typescript@1.8.10",
     "zone.js": "npm:zone.js@0.6.26",
     "github:frankwallis/plugin-typescript@5.2.7": {
-      "typescript": "npm:typescript@2.0.3"
+      "typescript": "npm:typescript@2.0.6"
     },
     "github:jack4it/system-less@master": {
       "less": "npm:less@2.7.1"
@@ -101,6 +101,16 @@ System.config({
     "github:jspm/nodelibs-https@0.1.0": {
       "https-browserify": "npm:https-browserify@0.0.0"
     },
+    "github:jspm/nodelibs-net@0.1.2": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "crypto": "github:jspm/nodelibs-crypto@0.1.0",
+      "http": "github:jspm/nodelibs-http@1.7.1",
+      "net": "github:jspm/nodelibs-net@0.1.2",
+      "process": "github:jspm/nodelibs-process@0.1.2",
+      "stream": "github:jspm/nodelibs-stream@0.1.0",
+      "timers": "github:jspm/nodelibs-timers@0.1.0",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
     "github:jspm/nodelibs-os@0.1.0": {
       "os-browserify": "npm:os-browserify@0.1.2"
     },
@@ -128,24 +138,15 @@ System.config({
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
-    "github:twbs/bootstrap@4.0.0-alpha.5": {
-      "jquery": "npm:jquery@2.2.4",
-      "tether": "github:HubSpot/tether@1.3.7"
-    },
-    "npm:@angular/common@2.1.0": {
-      "@angular/core": "npm:@angular/core@2.1.0"
+    "github:twbs/bootstrap@3.3.7": {
+      "jquery": "npm:jquery@3.1.1"
     },
     "npm:@angular/common@2.1.1": {
       "@angular/core": "npm:@angular/core@2.1.1"
     },
-    "npm:@angular/compiler@2.1.0": {
-      "@angular/core": "npm:@angular/core@2.1.0",
+    "npm:@angular/compiler@2.1.1": {
+      "@angular/core": "npm:@angular/core@2.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:@angular/core@2.1.0": {
-      "process": "github:jspm/nodelibs-process@0.1.2",
-      "rxjs": "npm:rxjs@5.0.0-beta.12",
-      "zone.js": "npm:zone.js@0.6.26"
     },
     "npm:@angular/core@2.1.1": {
       "process": "github:jspm/nodelibs-process@0.1.2",
@@ -157,39 +158,34 @@ System.config({
       "@angular/core": "npm:@angular/core@2.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:@angular/http@2.1.0": {
-      "@angular/core": "npm:@angular/core@2.1.0",
-      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.0",
+    "npm:@angular/http@2.1.1": {
+      "@angular/core": "npm:@angular/core@2.1.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.1",
       "rxjs": "npm:rxjs@5.0.0-beta.12"
     },
-    "npm:@angular/platform-browser-dynamic@2.1.0": {
-      "@angular/common": "npm:@angular/common@2.1.0",
-      "@angular/compiler": "npm:@angular/compiler@2.1.0",
-      "@angular/core": "npm:@angular/core@2.1.0",
-      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.0"
+    "npm:@angular/platform-browser-dynamic@2.1.1": {
+      "@angular/common": "npm:@angular/common@2.1.1",
+      "@angular/compiler": "npm:@angular/compiler@2.1.1",
+      "@angular/core": "npm:@angular/core@2.1.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.1"
     },
-    "npm:@angular/platform-browser@2.1.0": {
-      "@angular/common": "npm:@angular/common@2.1.0",
-      "@angular/core": "npm:@angular/core@2.1.0",
+    "npm:@angular/platform-browser@2.1.1": {
+      "@angular/common": "npm:@angular/common@2.1.1",
+      "@angular/core": "npm:@angular/core@2.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:@angular/router@3.1.0": {
-      "@angular/common": "npm:@angular/common@2.1.0",
-      "@angular/core": "npm:@angular/core@2.1.0",
-      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.0",
+    "npm:@angular/router@3.1.1": {
+      "@angular/common": "npm:@angular/common@2.1.1",
+      "@angular/core": "npm:@angular/core@2.1.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.1",
       "process": "github:jspm/nodelibs-process@0.1.2",
       "rxjs": "npm:rxjs@5.0.0-beta.12"
     },
-    "npm:@angular/upgrade@2.1.0": {
-      "@angular/compiler": "npm:@angular/compiler@2.1.0",
-      "@angular/core": "npm:@angular/core@2.1.0",
-      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.0",
-      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.1.0"
-    },
-    "npm:@ng-bootstrap/ng-bootstrap@1.0.0-alpha.9": {
-      "@angular/common": "npm:@angular/common@2.1.1",
+    "npm:@angular/upgrade@2.1.1": {
+      "@angular/compiler": "npm:@angular/compiler@2.1.1",
       "@angular/core": "npm:@angular/core@2.1.1",
-      "@angular/forms": "npm:@angular/forms@2.1.1"
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.1.1",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.1.1"
     },
     "npm:amdefine@1.0.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -306,7 +302,7 @@ System.config({
     "npm:constants-browserify@0.0.1": {
       "systemjs-json": "github:systemjs/plugin-json@0.1.2"
     },
-    "npm:core-js@1.2.7": {
+    "npm:core-js@2.4.1": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2",
@@ -439,6 +435,14 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:ng2-bootstrap@1.1.14": {
+      "@angular/common": "npm:@angular/common@2.1.1",
+      "@angular/compiler": "npm:@angular/compiler@2.1.1",
+      "@angular/core": "npm:@angular/core@2.1.1",
+      "@angular/forms": "npm:@angular/forms@2.1.1",
+      "moment": "npm:moment@2.15.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:os-browserify@0.1.2": {
       "os": "github:jspm/nodelibs-os@0.1.0"
     },
@@ -532,8 +536,10 @@ System.config({
     "npm:typescript@1.8.10": {
       "os": "github:jspm/nodelibs-os@0.1.0"
     },
-    "npm:typescript@2.0.3": {
+    "npm:typescript@2.0.6": {
       "crypto": "github:jspm/nodelibs-crypto@0.1.0",
+      "http": "github:jspm/nodelibs-http@1.7.1",
+      "net": "github:jspm/nodelibs-net@0.1.2",
       "os": "github:jspm/nodelibs-os@0.1.0"
     },
     "npm:url@0.10.3": {
